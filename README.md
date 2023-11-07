@@ -1,3 +1,42 @@
-# metacrafter-exercise
+# Dambaz Token
 
-This contract have public variables that store the details about my coin (Token Name, Token Abbrv., Total Supply) 2. The contract have a mapping of addresses to balances (address => uint) 3. The contract have a mint function that takes two parameters: an address and a value. The function then increases the total supply by that number and increases the balance of the “sender” address by that amount 4. The contract have a burn function, which works the opposite of the mint function, as it destroy tokens. It take an address and value just like the mint functions. It then deduct the value from the total supply and from the balance of the “sender”. 5. Lastly, the burn function have conditionals to make sure the balance of "sender" is greater than or equal to the amount that is supposed to be burned.
+This contract implements a basic token named "Dambaz" (DMB) with minting and burning functions.
+
+## Description
+
+The 'Token' contract provides the functionality to mint (create) and burn (destroy) tokens. It includes methods to increase and decrease the total token supply while managing individual balances for different addresses.
+
+## Getting Started
+
+### Installing
+
+Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/ayoade96/metacrafter-exercise.git
+```
+
+### Executing Program
+
+To deploy the contract, you will need a development environment with Solidity support, such as Remix IDE or Hardhat.
+
+Step-by-step guide:
+1. Open the Solidity development environment.
+2. Copy and paste the contract code.
+3. Compile the contract.
+4. Deploy the contract to a test network or a local blockchain.
+
+### Help
+
+For any issues or problems encountered, please check the Solidity documentation or the platform you're using for Solidity development.
+
+### Authors
+
+- Dambaz Team
+  - Email: contact@dambaz.com
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+instructions, or specific development environment.
